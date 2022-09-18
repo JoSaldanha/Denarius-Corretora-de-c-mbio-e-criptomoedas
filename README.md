@@ -18,3 +18,6 @@ Denarius é um projeto de estudo frontend.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75482200/190927073-fadd0b71-5b09-48cd-b967-5e474c2449ae.png"
 </p>
+
+### APIs usadas:
+`AwesomeAPI`
