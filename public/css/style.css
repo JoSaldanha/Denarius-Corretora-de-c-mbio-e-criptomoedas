@@ -1,0 +1,88 @@
+:root {
+  --warning: #f0ad4e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+}
+
+body {
+  background-image: linear-gradient(to bottom, white 90%, black 90%);
+}
+
+a {
+  color: #292b2c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--warning);
+  text-decoration: underline;
+  transition: 150ms;
+}
+
+#logo {
+  font-size: 26px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+section {
+  height: 100vh;
+}
+
+#div-coins {
+  background-color: var(--warning);
+}
+
+#infos {
+  background-image: linear-gradient(135deg, var(--warning) 5% 10%, #fff 10% 75%, var(--warning) 75% 85%, #fff 85% 90%, var(--warning) 90%);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 150ms;
+}
+
+.text-comment {
+  font-size: 20px;
+}
+
+footer {
+  background-color: #000;
+}
+
+.foot-link {
+  color: gray;
+}
+
+.bot-redes {
+	border-radius: 50%;
+	border-style: none;
+  background-color: #222326;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+}
+
+.t-redes {
+	font-size: 20px;
+}
+
+.midia:hover , #see-more:hover {
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--warning);
+  transition: ease 300ms;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
