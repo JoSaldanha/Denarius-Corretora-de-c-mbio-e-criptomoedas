@@ -21,3 +21,6 @@ Denarius é um projeto de estudo frontend.
 
 ### APIs usadas:
 `AwesomeAPI`
+
+---
+***PS:** Por favor, ignorem o preço do BTC no print da página do site. Ver aquilo hoje em dia causa gatilhos emocionais. 🤡*
